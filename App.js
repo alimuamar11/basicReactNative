@@ -3,13 +3,15 @@ import {ScrollView} from 'react-native';
 import SampleComponen from './SampleComponen';
 import StylingReactNativeComponen from './StylingReactNativeComponen';
 import MateriFlexBox from './MateriFlexBox';
+import PositioReactNative from './PositioReactNative';
 
 const App = () => {
   return(
     <ScrollView>
-      <StylingReactNativeComponen />
+      {/* <StylingReactNativeComponen />
       <SampleComponen />
-      <MateriFlexBox />
+      <MateriFlexBox /> */}
+      <PositioReactNative />
   </ScrollView>
   );
 };
