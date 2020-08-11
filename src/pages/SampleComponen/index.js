@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {View, Text, Image} from 'react-native';
-import rafting from './sungai.jpg'
+import rafting from '../../assets/images/sungai.jpg'
 
 const SampleComponen = () => {
     return(

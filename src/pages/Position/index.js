@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image } from 'react-native';
-import keranjang from './cart.png';
+import keranjang from '../../assets/icons/cart.png';
 
-const PositioReactNative = () => {
+const Position = () => {
     return (
         <View style={styles.wrapper}>
             <View style={styles.cartWrapper}>
@@ -14,7 +14,7 @@ const PositioReactNative = () => {
     )
 }
 
-export default PositioReactNative
+export default Position;
 
 const styles = StyleSheet.create({
     wrapper: {

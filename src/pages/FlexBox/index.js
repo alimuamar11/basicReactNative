@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import {Text, Image} from 'react-native';
-import { View } from "native-base";
-import potoProfile from './kilowh.jpg';
+import {Text, Image, View} from 'react-native';
+import potoProfile from '../../assets/images/kilowh.jpg';
 
-class MateriFlexBox extends Component{
+class FlexBox extends Component{
     render(){
         return (
             <View>
@@ -30,6 +29,6 @@ class MateriFlexBox extends Component{
             </View>
         );
     }
-}
+};
 
-export default MateriFlexBox;
+export default FlexBox;

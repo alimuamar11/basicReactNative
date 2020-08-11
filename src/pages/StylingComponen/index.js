@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {View, Image, Text} from 'react-native';
-import rafting from './sungai.jpg';
+import rafting from '../../assets/images/sungai.jpg';
 
 
-const StylingReactNativeComponen = () => {
+const StylingComponen = () => {
     return (
       <View>
         <View style={{padding: 12, backgroundColor: '#f2f2f2', width:212, borderRadius: 8}}>
@@ -24,4 +24,4 @@ const StylingReactNativeComponen = () => {
     );
   }
 
-  export default StylingReactNativeComponen;
+  export default StylingComponen;
