@@ -9,11 +9,11 @@ import PropsDinamis from './pages/PropsDinamis';
 const App = () => {
   return(
     <ScrollView>
-      {/* <SampleComponen />
+      <SampleComponen />
       <StylingComponen />
       <Position />
-      <FlexBox /> */}
       <PropsDinamis />
+      <FlexBox />
     </ScrollView>
   );
 };
